@@ -10,28 +10,3 @@
 .button-link:hover {
     color:rgba(255, 255, 94, 0.815);
 }
-
-.nav-button {
-    border: rgb(160, 69, 69) 8px inset;
-    border-radius:25% 10%;
-    font-weight:bold;
-    font-variant-caps:small-caps;
-    text-decoration: none;
-    color:rgb(24, 24, 24);
-    background-color:rgb(170, 170, 170);
-    box-shadow: rgba(24, 24, 24, 0.2) 2em;
-    display:flex;
-    margin:0.5em;
-    padding:0.5em;
-}
-
-.nav-button:visited {
-    text-decoration: none;
-    /* color:rgb(24, 24, 24); */
-}
-.nav-button:hover {
-        color:rgba(255, 255, 94, 0.815);
-        text-shadow:0.25em 0.25em 0.5em rgba(255, 255, 94, 0.815);
-        border-style:outset;
-}
-

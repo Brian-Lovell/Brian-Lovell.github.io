@@ -20,18 +20,18 @@
     .content {
         display:grid;
         grid-area:ct;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto 125px auto 125px auto;
         grid-template-areas:
-        "clb hd hd crb"
-        "clb nav nav crb"
-        "clb ctm ctm crb"
-        "clb ftr ftr crb";
+        ". clb hd crb ."
+        ". clb nav crb ."
+        ". clb ctm crb ."
+        ". clb ftr crb .";
     }
     
     .content-main {
         display:flex;
         grid-area:ctm;
-        flex-direction:row;
+        flex-direction:column;
         flex: 2 1 auto;
     }
 }

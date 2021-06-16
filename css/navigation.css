@@ -1,14 +1,51 @@
-/* Navigation Style */
 .nav {
     border:rgb(160, 69, 69) inset;
-    border-width: 5px 5px 5px 0;
+    border-width: 5px 0px 5px 0;
     /* border-radius:5%; */
     background-color:rgb(170, 170, 170);
-}
-
-/* Navigation Layout */
-.nav {
     display:flex;
     grid-area:nav;
     flex-direction:row;
+    padding: 0 0 0 1em;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    float: left;
+    padding: 0em;
+}
+
+.nav a {
+    border: rgb(160, 69, 69) 8px inset;
+    /* border-radius:25% 10%; */
+    font-weight:bold;
+    font-variant-caps:small-caps;
+    text-decoration: none;
+    color:rgb(24, 24, 24);
+    background-color:rgb(170, 170, 170);
+    box-shadow: rgba(24, 24, 24, 0.2) 2em;
+    display:flex;
+    margin:0.5em;
+    padding:0.5em;
+    transform:skew(-20deg);
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.nav a:visited {
+    text-decoration: none;
+    /* color:rgb(24, 24, 24); */
+}
+.nav a:hover {
+        color:rgba(255, 255, 94, 0.815);
+        text-shadow:0.25em 0.25em 0.5em rgba(255, 255, 94, 0.815);
+        border-style:outset;
 }
