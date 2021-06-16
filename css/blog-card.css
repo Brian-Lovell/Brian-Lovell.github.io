@@ -2,12 +2,15 @@
     display:flex;
     flex-direction:column;
     justify-content:space-between;
+    align-content:center;
+    align-items:center;
+    text-align:center;
     grid-area:bc;
     margin:1em;
     padding:1.5em;
     border:rgb(160, 69, 69) solid;
     border-width: 0.5em 0px 0px 1em;
-    box-shadow: 0 4px 8xp 0 rgba(0,0,0,0.2)
+    box-shadow: 0 4px 8xp 0 rgba(0,0,0,0.2);
 }
 
 .blog-card:hover {
@@ -17,11 +20,17 @@
 .blog-card-gallery {
     display:flex;
 }
+
+.blog-card h2 {
+    padding-left: 1.5em;
+    font-size:x-large;
+}
 @media (min-width:1079px) {
     .blog-card {
         display:flex;
         flex-direction:column;
         justify-content:space-between;
+        align-content:center;
         padding:0.5em;
         margin: 2em;
     }

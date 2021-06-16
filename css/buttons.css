@@ -3,8 +3,9 @@
     background-color:rgb(170, 170, 170);
     text-align: center;
     text-decoration:none;
-    display: inline-block;
     font-style:oblique;
+    width: 50%;
+    margin: 0.5em;
 }
 
 .button-link:hover {
