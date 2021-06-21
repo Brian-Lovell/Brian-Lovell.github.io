@@ -20,7 +20,7 @@
     .content {
         display:grid;
         grid-area:ct;
-        grid-template-columns: auto 125px auto 125px auto;
+        grid-template-columns: 0.5fr 125px 2fr 125px 0.5fr;
         grid-template-areas:
         ". clb hd crb ."
         ". clb nav crb ."
