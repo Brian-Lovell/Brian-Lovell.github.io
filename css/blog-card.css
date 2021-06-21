@@ -25,6 +25,10 @@
     padding-left: 1.5em;
     font-size:x-large;
 }
+
+.blog-card p {
+    text-align:left;
+}
 @media (min-width:1079px) {
     .blog-card {
         display:flex;
