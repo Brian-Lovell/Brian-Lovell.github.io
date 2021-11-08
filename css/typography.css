@@ -15,6 +15,10 @@ html {
     font-variant-caps: small-caps;
 }
 
+h1 {
+    margin: 25px auto 25px 50px;
+}
+
 /* h2 custome header */
 h2 {
     font-variant-caps: small-caps;
