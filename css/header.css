@@ -1,6 +1,7 @@
 /* Header Layout */
 .header {
     display:flex;
+    flex-direction:column;
     justify-content:left;
     height:100px;
     padding:1em;
