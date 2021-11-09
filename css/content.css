@@ -1,5 +1,5 @@
 /* Content Container Layout */
-.content {
+body {
     display:grid;
     grid-area:ct;
     grid-template-areas:
@@ -13,11 +13,22 @@
 .content-main {
     display:flex;
     grid-area:ctm;
-    flex-direction:column;
+    flex-direction:row;
+    flex:auto;
+}
+
+article {
+    flex:2;
+    overflow-y:auto;
+}
+
+aside {
+    flex:1;
+    overflow-y:auto;
 }
 /* Large size screens */
 @media (min-width:1079px) {
-    .content {
+    body {
         display:grid;
         grid-area:ct;
         grid-template-columns: 0.5fr 125px 2fr 125px 0.5fr;
@@ -28,10 +39,10 @@
         ". clb ftr crb .";
     }
     
-    .content-main {
+    /* .content-main {
         display:flex;
         grid-area:ctm;
         flex-direction:column;
         flex: 2 1 auto;
-    }
+    } */
 }
