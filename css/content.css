@@ -1,12 +1,12 @@
 
 body {
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
 }
 
 main {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     flex:auto;
 }
 
@@ -18,6 +18,11 @@ article {
 aside {
     flex:1;
     overflow-y:auto;
+}
+
+.viewscreen{
+    display:flex;
+    flex-direction:row;
 }
 /* Large size screens */
 /* @media (min-width:1079px) {
