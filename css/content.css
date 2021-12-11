@@ -25,8 +25,28 @@ aside {
     display:flex;
     flex-direction:column;
     /* Styles */
-    box-shadow: inset -15px 0px 13px -5px rgba(9, 155, 253, 0.507)
+    box-shadow: inset -15px 0px 13px -5px rgba(9, 155, 253, 0.507);
+    animation-name: screen;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes screen {
+    from {
+        background-image: repeating-linear-gradient(to top,
+            rgba(9, 155, 253, 0.1),
+            rgba(24, 24, 24, 0.5) 0.2%
+            );
+    }
+    to {
+        background-image: repeating-linear-gradient(
+            rgba(24, 24, 24, 0.5),
+            rgba(9, 155, 253, 0.1) 0.2%,
+            rgba(255, 246, 246, 0.1)0.3%
+            );
+    }
+}
+
 /* Large size screens */
 @media (min-width:1079px) {
     .viewscreen {
