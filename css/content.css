@@ -23,46 +23,13 @@ aside {
 .viewscreen{
     /* Layout */
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     /* Styles */
     box-shadow: inset -15px 0px 13px -5px rgba(9, 155, 253, 0.507)
 }
 /* Large size screens */
-/* @media (min-width:1079px) {
-    body {
-        display:grid;
-        grid-area:ct;
-        grid-template-columns: 0.5fr 125px 2fr 125px 0.5fr;
-        grid-template-areas:
-        ". clb hd crb ."
-        ". clb nav crb ."
-        ". clb ctm crb ."
-        ". clb ftr crb .";
-    } */
-    
-    /* .content-main {
-        display:flex;
-        grid-area:ctm;
-        flex-direction:column;
-        flex: 2 1 auto;
-    } */
-/* } */
-
-/* Content Container Layout */
-/* body {
-    display:grid;
-    grid-area:ct;
-    grid-template-areas:
-    "hd"
-    "nav"
-    "ctm"
-    "ftr";
-} */
-
-/* Content Main Layout */
-/* .content-main {
-    display:flex;
-    grid-area:ctm;
-    flex-direction:row;
-    flex:auto;
-} */
+@media (min-width:1079px) {
+    .viewscreen {
+        flex-direction:row;
+    }
+}
