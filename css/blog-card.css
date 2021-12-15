@@ -34,6 +34,8 @@
 }
 
 .small {
+    display:flex;
+    flex-direction: row;
     border:rgb(160, 69, 69) solid;
     border-width: 6px 0px 0px 0px ;
 }
