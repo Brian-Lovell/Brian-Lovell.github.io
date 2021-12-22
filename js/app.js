@@ -2,7 +2,7 @@
  
 const sectionList = document.querySelectorAll('section');
 
-let navbarList = document.getElementById("navbar__list");
+let navbarList = document.getElementById("archive_list");
 
 // Functions
 
