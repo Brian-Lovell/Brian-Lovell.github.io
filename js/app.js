@@ -36,7 +36,7 @@ function buildNav () {
     // Get elements from section list
     for (i = 0; i < sectionList.length; i++) {
         // Go through each section and get header
-        const landingContainer = document.getElementsByClassName('archive_container')[i];
+        const landingContainer = document.getElementsByClassName('header-section')[i];
         const headers = landingContainer.getElementsByTagName('h2')[0];
         // Store header
         const headersText = headers.innerHTML;
