@@ -20,7 +20,7 @@ aside {
     overflow-y:auto;
 }
 
-.viewscreen{
+.viewscreen {
     /* Layout */
     display:flex;
     flex-direction:column;
@@ -30,6 +30,10 @@ aside {
     animation-name: screen;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+}
+
+.archive {
+    flex-direction:column;
 }
 
 @keyframes screen {
@@ -62,5 +66,9 @@ aside {
 @media (min-width:1079px) {
     .viewscreen {
         flex-direction:row;
+    }
+
+    .archive {
+        flex-direction:column;
     }
 }
