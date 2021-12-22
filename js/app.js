@@ -54,9 +54,9 @@ function changeActiveClass () {
             let sectionY = sectionList[i].getBoundingClientRect().bottom;
             let viewPortHeight = window.innerHeight;
             if (sectionY <= viewPortHeight && sectionY >= 0) {
-                sectionList[i].classList.add("your-active-class");
+                sectionList[i].classList.add("active-class");
             } else {
-                sectionList[i].classList.remove("your-active-class");
+                sectionList[i].classList.remove("active-class");
             }
         }
     });
