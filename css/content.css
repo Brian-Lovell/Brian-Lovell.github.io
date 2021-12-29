@@ -8,8 +8,8 @@ main {
     display:flex;
     flex-direction: column;
     flex:auto;
-    max-width: 80%;
-    
+    max-width: 100%;
+
 }
 
 article {
@@ -61,5 +61,9 @@ aside {
 
     .archive {
         flex-direction:column;
+    }
+
+    main {
+        max-width: 80%;
     }
 }
