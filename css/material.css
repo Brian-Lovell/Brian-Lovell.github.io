@@ -1,0 +1,22 @@
+.metallic {
+    background-image:
+    radial-gradient(
+        rgba(0,0,0,0.1),
+        rgba(255, 255, 255, 0.473)
+        ),
+    -webkit-repeating-linear-gradient(90deg,
+    rgba(170, 170, 170, 1) 0%,
+    rgba(24, 24, 24, 0.05) 0.03%,   
+    rgba(170, 170, 170, 1) 0.04%
+    ),
+    -webkit-repeating-linear-gradient(90deg,
+    rgba(170, 170, 170, 1) 0%,
+    rgba(24, 24, 24, 0.06) 0.04%,   
+    rgba(170, 170, 170, 1) 0.05%
+    ),
+    -webkit-repeating-linear-gradient(90deg,
+    rgba(170, 170, 170, 1) 0%,
+    rgba(24, 24, 24, 0.07) 0.01%,   
+    rgba(170, 170, 170, 1) 0.08%
+    );
+}
