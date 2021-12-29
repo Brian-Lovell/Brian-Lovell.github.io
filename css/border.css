@@ -49,5 +49,6 @@
         display:flex;
         grid-area:crb;
         width:125px;
+        margin-right:10%;
     }
 }
