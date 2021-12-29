@@ -20,17 +20,6 @@ aside {
     overflow-y:auto;
 }
 
-.viewscreen {
-    /* Layout */
-    display:flex;
-    flex-direction:column;
-    /* Styles */
-    background-color:rgb(24, 24, 24);
-    box-shadow: inset -15px 0px 13px -5px rgba(9, 155, 253, 0.507);
-    animation-name: screen;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
 
 .archive {
     flex-direction:column;
