@@ -3,10 +3,20 @@
     border:inset;
     border-width: 0.25em 0 0.25em 0.25em;
     background-color: rgb(170, 170, 170);
-    background-image: -webkit-repeating-linear-gradient(180deg,
-    rgba(170, 170, 170, 0.2) 0.20%,
-    rgba(24, 24, 24, 0.1) 0.30%,    
-    rgba(170, 170, 170, 0.2) 0.40%
+    background-image: -webkit-repeating-linear-gradient(90deg,
+    rgba(170, 170, 170, 1) 0.02%,
+    rgba(24, 24, 24, 0.1) 0.03%,   
+    rgba(170, 170, 170, 1) 0.04%
+    ),
+    -webkit-repeating-linear-gradient(90deg,
+    rgba(170, 170, 170, 0.9) 0.05%,
+    rgba(24, 24, 24, 0.2) 0.07%,   
+    rgba(170, 170, 170, 0.9) 0.10%
+    ),
+    -webkit-repeating-linear-gradient(90deg,
+    rgba(170, 170, 170, 0.8) 0.01%,
+    rgba(24, 24, 24, 0.3) 0.02%,   
+    rgba(170, 170, 170, 0.8) 0.03%
     );
     background-attachment:local;
     width:200px;
