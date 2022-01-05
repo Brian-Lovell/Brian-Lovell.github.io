@@ -38,6 +38,7 @@
     flex-direction: row;
     border:rgb(160, 69, 69) solid;
     border-width: 6px 0px 0px 0px ;
+    max-width:80%;
 }
 @media (min-width:1079px) {
     .blog-card {
