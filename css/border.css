@@ -4,7 +4,8 @@
     border-width: 0.25em 0 0.25em 0.25em; */
     background-color: rgb(170, 170, 170);
     background-attachment:local;
-    width:200px;
+    width:125px;
+    min-width:125px;
 }
 
 .left-border-box {
@@ -16,6 +17,8 @@
     /* border:inset;
     border-width: 0.25em 0.25em 0.25em 0; */
     background-color:rgb(170, 170, 170);
+    width:125px;
+    min-width:125px;
 }
 
 /* Border Layout */
