@@ -27,6 +27,8 @@ aside {
     flex-direction:column;
 }
 
+
+
 @keyframes screen {
     0% {
         background-image: -webkit-repeating-linear-gradient(top,
@@ -65,5 +67,10 @@ aside {
 
     main {
         max-width: 80%;
+    }
+    .grid {
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
     }
 }
