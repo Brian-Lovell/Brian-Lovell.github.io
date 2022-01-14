@@ -11,6 +11,7 @@ function addMenu (text,idString) {
     let newLi = document.createElement("li");
     let newA = document.createElement("a");
     newA.classList.add("menu__link");
+    newA.classList.add("metallic")
 
     // Add the elements and add class names
     let navContent = document.createTextNode(text);
