@@ -9,5 +9,6 @@
 }
 
 .button-link:hover {
-    color:rgba(255, 255, 94, 0.815);
+    /* color:rgba(255, 255, 94, 0.815); */
+    color:rgb(182, 233, 255);
 }

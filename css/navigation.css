@@ -1,5 +1,6 @@
 .nav {
-    border:rgb(160, 69, 69) inset;
+    /* border:rgb(160, 69, 69) inset; */
+    border:#2b4455 inset;
     border-width: 5px 0px 5px 0;
     /* border-radius:5%; */
     background-color:rgb(170, 170, 170);
@@ -21,7 +22,8 @@
 }
 
 .nav a {
-    border: rgb(160, 69, 69) 8px inset;
+    /* border: rgb(160, 69, 69) 8px inset; */
+    border: #2b4455 8px inset;
     /* border-radius:25% 10%; */
     font-weight:bold;
     font-variant-caps:small-caps;
@@ -45,7 +47,9 @@
     /* color:rgb(24, 24, 24); */
 }
 .nav a:hover {
-        color:rgba(255, 255, 94, 0.815);
-        text-shadow:0.25em 0.25em 0.5em rgba(255, 255, 94, 0.815);
+        /* color:rgba(255, 255, 94, 0.815);
+        text-shadow:0.25em 0.25em 0.5em rgba(255, 255, 94, 0.815); */
+        color:rgba(182, 233, 255, 0.815);
+        text-shadow:0.25em 0.25em 0.5em rgba(182, 233, 255, 0.815);
         border-style:outset;
 }

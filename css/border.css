@@ -9,9 +9,10 @@
 }
 
 .left-border-box {
-    background-color: rgb(160, 69, 69);
-    /* background-color: #2b4455; */
-    border:2px rgb(160, 69, 69) inset;
+    /* background-color: rgb(160, 69, 69); */
+    background-color: #2b4455;
+    /* border:2px rgb(160, 69, 69) inset; */
+    border:2px #2b4455 inset;
 }
 
 .content-right-border {
