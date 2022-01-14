@@ -10,5 +10,10 @@
 
 .button-link:hover {
     /* color:rgba(255, 255, 94, 0.815); */
-    color:#79BFED;
+    color:rgb(255, 255, 255);
+    text-shadow:1px 1px 0 rgb(121,191,237),
+                0 0 0.2em rgb(121, 191, 237),
+                0 0 0.3em rgb(121, 191, 237);
+    /* border: #13242f 8px solid; */
+    /* box-shadow:inset 2px 2px 10px rgb(24, 24, 24); */
 }
