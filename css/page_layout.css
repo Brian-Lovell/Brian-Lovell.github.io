@@ -31,34 +31,6 @@ aside {
     align-items: center;
 }
 
-
-
-@keyframes screen {
-    0% {
-        background-image: -webkit-repeating-linear-gradient(top,
-            rgba(9, 155, 253, 0.1),
-            rgba(24, 24, 24, 0.1) 0.01%,
-            rgba(9, 155, 253, 0.1)0.02%
-            );
-        background-attachment:fixed;
-    }
-    50% {
-        background-image: -webkit-repeating-linear-gradient(top,
-        rgba(24, 24, 24, 0.1),
-        rgba(9, 155, 253, 0.1) 0.01%,
-        rgba(24, 24, 24, 0.1)0.02%);
-        background-attachment:fixed;
-    }
-    100% {
-        background-image: -webkit-repeating-linear-gradient(top,
-            rgba(24, 24, 24, 0.1),
-            rgba(9, 155, 253, 0.1)0.01%,
-            rgba(24, 24, 24, 0.1) 0.02%
-            );
-        background-attachment:fixed;
-    }
-}
-
 /* Large size screens */
 @media (min-width:1079px) {
     .viewscreen {
