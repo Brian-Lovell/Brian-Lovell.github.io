@@ -9,3 +9,17 @@ img {
     font-size:small;
     text-align: center;
 }
+
+.img-gallery {
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+}
+
+.img-avatar {
+    height:100px;
+    width:100px;
+    margin:1.0em;
+    border-radius: 80%;
+    box-shadow:0 0 6px rgba(9, 155, 253, 0.75);
+}
